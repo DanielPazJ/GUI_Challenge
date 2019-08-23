@@ -33,7 +33,7 @@ public class HomePage extends BasePage{
 
     @FindBy (xpath = "//*[@class='fb-masthead-login__name re-design-cl__name login-redesing_logout-box']")
     private WebElement logoutMessage;
-    
+
     @FindBy (className = "fb-filter-header__log-out")
     private WebElement logoutLink;
 

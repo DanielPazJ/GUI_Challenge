@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 56050978100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10545579600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "LoginSteps.iLoginWithValidCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2086779000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be logged in",
+            "match": {
+              "location": "AssertLoginSteps.IShouldBeSignedIn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-23T20:19:05.310Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10318974100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Successful Logout",
+        "description": "",
+        "id": "logout;successful-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 1472852700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 555807200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click logout",
+            "match": {
+              "location": "LogoutSteps.iClickLogout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48305714600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be signed out",
+            "match": {
+              "location": "AssertLogoutSteps.iShouldBeSignedOut()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Logout.feature",
+    "tags": []
+  }
+]
