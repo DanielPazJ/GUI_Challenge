@@ -15,8 +15,6 @@ public class DriverHelper {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         driver = new ChromeDriver(options);
-        //driver.get(DataHelper.getProperties("homepage"));
-
     }
 
     public static void closeDriver(){
@@ -26,7 +24,6 @@ public class DriverHelper {
     public static void waitForVisibility(WebElement element, int time){
         WebDriverWait webDriverWait = new WebDriverWait(driver, time);
         webDriverWait.until(ExpectedConditions.visibilityOf(element));
-
     }
 
     public static WebDriver getDriver (){

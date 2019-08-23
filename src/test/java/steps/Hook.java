@@ -8,7 +8,6 @@ public class Hook {
 
     @Before
     public static void initializeTest(){
-
         DriverHelper.initializeDriver();
     }
 

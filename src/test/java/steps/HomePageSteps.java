@@ -20,7 +20,6 @@ public class HomePageSteps {
     @Given("I am in the Falabella homepage$")
     public void IAmInTheFalabellaHomepage(){
         driver.get(DataHelper.getProperties("homepage"));
-        //Hook.driver.get(DataHelper.getProperties("homepage"));
         HomePage homePage = new HomePage(driver);
     }
 }
