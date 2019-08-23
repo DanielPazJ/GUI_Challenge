@@ -19,7 +19,7 @@ public class ValidLoginSteps {
     @Then("I should be signed in")
     public void IShouldBeSignedIn (){
         HomePage homePage = new HomePage(driver);
-        assertThat("", homePage.getLoginMessage(), containsString("Bienvenid@, David"));
+        assertThat("", homePage.getLoginMessage(), containsString("David"));
         //assertThat("Name does not match",homePage.getLoginMessage(), equalTo("Bienvenid@,\nDavid"));
     }
 }

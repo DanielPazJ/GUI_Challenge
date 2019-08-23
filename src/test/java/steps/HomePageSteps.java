@@ -11,7 +11,7 @@ public class HomePageSteps {
     private WebDriver driver;
 
     public HomePageSteps () {
-        this.driver = Hook.getDriver();
+        //this.driver = Hook.getDriver();
     }
 
     private ConfigurationHelper configurationHelper = new ConfigurationHelper();
@@ -20,6 +20,7 @@ public class HomePageSteps {
     public void IAmInTheFalabellaHomepage(){
 
         //driver.get(configurationHelper.getProperties("homepage"));
+        Hook.driver.get(ConfigurationHelper.getProperties("homepage"));
         HomePage homePage = new HomePage(driver);
     }
 }

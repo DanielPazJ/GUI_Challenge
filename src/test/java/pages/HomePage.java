@@ -25,7 +25,7 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "//button[@class='Button__main__1NDc9 Button__green__1fhy5']")
     private WebElement loginButton;
 
-    @FindBy (className = "fb-masthead-login__name re-design-cl__name")
+    @FindBy (xpath = "//*[@class='fb-masthead-login__name re-design-cl__name']//strong")
     private WebElement loginMessage;
 
     @FindBy (className = "Login__body__wb-dH")

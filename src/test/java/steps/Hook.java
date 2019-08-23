@@ -16,7 +16,7 @@ public class Hook {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         driver = new ChromeDriver(options);
-        driver.get(ConfigurationHelper.getProperties("homepage"));
+        //driver.get(ConfigurationHelper.getProperties("homepage"));
     }
 
     @After
@@ -24,7 +24,7 @@ public class Hook {
         driver.quit();
     }
 
-    public static WebDriver getDriver (){
-        return driver;
-    }
+   // public static WebDriver getDriver (){
+   //     return driver;
+   // }
 }
