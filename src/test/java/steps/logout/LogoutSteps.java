@@ -3,7 +3,7 @@ package steps.logout;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
-import utils.DriverHelper;
+import helpers.DriverHelper;
 
 public class LogoutSteps {
 

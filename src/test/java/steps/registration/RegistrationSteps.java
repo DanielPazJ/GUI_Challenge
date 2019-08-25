@@ -5,7 +5,7 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 import pages.RegisterPage;
-import utils.DriverHelper;
+import helpers.DriverHelper;
 
 public class RegistrationSteps {
 

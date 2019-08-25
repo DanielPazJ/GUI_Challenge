@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class DataHelper {
+public class Configuration {
 
     private static String property = null;
 

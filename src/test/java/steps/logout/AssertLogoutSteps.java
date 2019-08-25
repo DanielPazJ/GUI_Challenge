@@ -3,8 +3,8 @@ package steps.logout;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
-import utils.DataHelper;
-import utils.DriverHelper;
+import utils.Configuration;
+import helpers.DriverHelper;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -21,6 +21,6 @@ public class AssertLogoutSteps {
     @Then("I should be signed out")
     public void iShouldBeSignedOut() {
         assertThat("Wrong Message", homePage.getLogoutMessage(),
-                equalTo(DataHelper.getProperties("logout.message")));
+                equalTo(Configuration.getProperties("logout.message")));
     }
 }

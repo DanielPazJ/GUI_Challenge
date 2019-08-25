@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51197ce8-b527-4d74-9b21-e54b5beac07e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/registration/RegistrationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/shoppingCart/AssertShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/shoppingCart/ShoppingCartSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/login/AssertLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/login/AssertLoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/logout/AssertLogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/logout/AssertLogoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/logout/LogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/logout/LogoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/registration/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/registration/RegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Registration.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/GUIChallenge-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/GUIChallenge-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
@@ -29,11 +36,23 @@
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/runner.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/runner.Runner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HomePageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/login/AssertLoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/login/AssertLoginSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/login/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/login/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/logout/AssertLogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/logout/AssertLogoutSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/logout/LogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/logout/LogoutSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/registration/AssertRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/registration/AssertRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/registration/RegistrationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/registration/RegistrationSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/DataHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/DriverHelper.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,10 +68,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,10 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java">
+        <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="60">
+              <caret line="455" column="47" lean-forward="true" selection-start-line="455" selection-start-column="47" selection-end-line="455" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,66 +103,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/config/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/login/AssertLoginSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/shoppingCart/ShoppingCartSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="714">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegisterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2287#2376#1" />
-                <element signature="e#2414#2505#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1796#1797#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#1899#1900#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/registration/RegistrationSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ShoppingCartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="332">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1810#1811#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/shoppingCart/AssertShoppingCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="83" lean-forward="true" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -172,21 +221,24 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/logout/LogoutSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/logout/AssertLogoutSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/HomePageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/DriverHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/runner/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Hook.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/registration/AssertResgistration.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Registration.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/config/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/steps/login/AssertLoginSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/HomePageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/registration/RegistrationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/shoppingCart/ShoppingCartSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/config/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/shoppingCart/AssertShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ShoppingCartPage.java" />
       </list>
     </option>
   </component>
@@ -258,33 +310,7 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="runner" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GUI_Challenge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GUIChallenge" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GUI_Challenge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GUIChallenge" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GUI_Challenge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GUIChallenge" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="registration" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="GUI_Challenge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -326,7 +352,7 @@
               <item name="GUI_Challenge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="GUIChallenge" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cucumber-reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cucumber-html-reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -339,7 +365,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshopUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UITestingChallenge" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -374,15 +400,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Invalid registration">
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Delete  a product of the shopping cart">
+    <configuration name="Feature: ShoppingCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="GUIChallenge" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="SUGGESTED_NAME" value="Feature: ShoppingCart" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -393,14 +419,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Add a product to the shopping cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="GUIChallenge" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Logout" />
+      <option name="NAME_FILTER" value="^Add a product to the shopping cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Add a product to the shopping cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add a product to the shopping cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Delete  a product of the shopping cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="GUIChallenge" />
+      <option name="NAME_FILTER" value="^Delete  a product of the shopping cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Delete  a product of the shopping cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Delete  a product of the shopping cart" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -420,25 +466,6 @@
       <option name="NAME_FILTER" value="^Invalid registration$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Invalid registration$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Invalid registration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Successful Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="GUIChallenge" />
-      <option name="NAME_FILTER" value="^Successful Logout$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Successful Logout$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful Logout" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -536,19 +563,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.Scenario: Successful sign in" />
-      <item itemvalue="Cucumber java.Feature: Login" />
-      <item itemvalue="Cucumber java.Scenario: Successful Logout" />
-      <item itemvalue="Cucumber java.Feature: Logout" />
       <item itemvalue="JUnit.Runner" />
       <item itemvalue="Cucumber java.Scenario: Invalid registration" />
+      <item itemvalue="Cucumber java.Scenario: Add a product to the shopping cart" />
+      <item itemvalue="Cucumber java.Scenario: Delete  a product of the shopping cart" />
+      <item itemvalue="Cucumber java.Feature: ShoppingCart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Delete  a product of the shopping cart" />
+        <item itemvalue="Cucumber java.Feature: ShoppingCart" />
+        <item itemvalue="Cucumber java.Scenario: Add a product to the shopping cart" />
         <item itemvalue="Cucumber java.Scenario: Invalid registration" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber java.Feature: Logout" />
-        <item itemvalue="Cucumber java.Feature: Login" />
-        <item itemvalue="Cucumber java.Scenario: Successful Logout" />
       </list>
     </recent_temporary>
   </component>
@@ -566,35 +593,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2019.08.23 at 16h 57m 42s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Scenario__Delete__a_product_of_the_shopping_cart - 2019.08.25 at 11h 50m 47s.xml">
+      <configuration name="Scenario: Delete  a product of the shopping cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2019.08.23 at 17h 06m 14s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Scenario__Delete__a_product_of_the_shopping_cart - 2019.08.25 at 11h 56m 51s.xml">
+      <configuration name="Scenario: Delete  a product of the shopping cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2019.08.23 at 17h 17m 40s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Scenario__Delete__a_product_of_the_shopping_cart - 2019.08.25 at 11h 58m 22s.xml">
+      <configuration name="Scenario: Delete  a product of the shopping cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 16m 07s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Delete__a_product_of_the_shopping_cart - 2019.08.25 at 12h 01m 07s.xml">
+      <configuration name="Scenario: Delete  a product of the shopping cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 16m 54s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Delete__a_product_of_the_shopping_cart - 2019.08.25 at 12h 02m 58s.xml">
+      <configuration name="Scenario: Delete  a product of the shopping cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 18m 34s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__ShoppingCart - 2019.08.25 at 12h 04m 23s.xml">
+      <configuration name="Feature: ShoppingCart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 19m 31s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__ShoppingCart - 2019.08.25 at 12h 15m 14s.xml">
+      <configuration name="Feature: ShoppingCart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 20m 49s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__ShoppingCart - 2019.08.25 at 12h 20m 27s.xml">
+      <configuration name="Feature: ShoppingCart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 24m 43s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__ShoppingCart - 2019.08.25 at 12h 22m 00s.xml">
+      <configuration name="Feature: ShoppingCart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Invalid_registration - 2019.08.24 at 19h 27m 29s.xml">
-      <configuration name="Scenario: Invalid registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Delete__a_product_of_the_shopping_cart - 2019.08.25 at 12h 25m 06s.xml">
+      <configuration name="Scenario: Delete  a product of the shopping cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -615,15 +642,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2377892" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2377892" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3230148" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.26917902" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.04306864" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.16251354" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.37415883" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.1615074" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.37415883" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -637,34 +664,6 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17165992" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3232682" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.16251354" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.37477797" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39964476" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.7.1/cucumber-core-4.7.1.jar!/cucumber/runtime/Utils.class" />
@@ -701,16 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DataHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,37 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DriverHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/HomePageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -824,23 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Registration.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -848,24 +789,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="304">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/config/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/HomePageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="196">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="70" />
+        <state relative-caret-position="34">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#2287#2376#1" />
+            <element signature="e#2414#2505#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/login/AssertLoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -874,60 +837,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="189">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/login/AssertLoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2287#2376#1" />
-            <element signature="e#2414#2505#1" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/registration/RegistrationSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="128">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1761#1762#0" expanded="true" />
             <element signature="e#1810#1811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="455" column="47" lean-forward="true" selection-start-line="455" selection-start-column="47" selection-end-line="455" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="83" lean-forward="true" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/shoppingCart/AssertShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/registration/AssertRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/shoppingCart/ShoppingCartSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ShoppingCartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
       </provider>

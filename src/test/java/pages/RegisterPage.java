@@ -4,8 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utils.DataHelper;
-import java.util.List;
+import utils.Configuration;
 
 public class RegisterPage extends BasePage {
 
@@ -64,27 +63,27 @@ public class RegisterPage extends BasePage {
     public void fillRegister(String dataField){
 
         if(dataField.equals("name")){
-            userName.sendKeys(DataHelper.getProperties("register.name"));
+            userName.sendKeys(Configuration.getProperties("register.name"));
         }else if(dataField.equals("fathersLastName")){
-            fathersLastName.sendKeys(DataHelper.getProperties("register.lastname"));
+            fathersLastName.sendKeys(Configuration.getProperties("register.lastname"));
         }else if(dataField.equals("mothersLastName")){
-            mothersLastName.sendKeys(DataHelper.getProperties("register.lastname"));
+            mothersLastName.sendKeys(Configuration.getProperties("register.lastname"));
         }else if(dataField.equals("email")){
-            email.sendKeys(DataHelper.getProperties("register.email"));
+            email.sendKeys(Configuration.getProperties("register.email"));
         }else if(dataField.equals("password")){
-            password.sendKeys(DataHelper.getProperties("register.password"));
+            password.sendKeys(Configuration.getProperties("register.password"));
         }else if(dataField.equals("confirmPassword")) {
-            confirmPassword.sendKeys(DataHelper.getProperties("register.password"));
+            confirmPassword.sendKeys(Configuration.getProperties("register.password"));
         }else if(dataField.equals("idNumber")){
-            idNumber.sendKeys(DataHelper.getProperties("register.idNumber"));
+            idNumber.sendKeys(Configuration.getProperties("register.idNumber"));
         }else if(dataField.equals("cellphone")){
-            cellphone.sendKeys(DataHelper.getProperties("register.cellphone"));
+            cellphone.sendKeys(Configuration.getProperties("register.cellphone"));
         }
     }
 
     public void registerGender (){
 
-        if(DataHelper.getProperties("register.gender").equals("Female")){
+        if(Configuration.getProperties("register.gender").equals("Female")){
             femaleGender.click();
         }else{
             maleGender.click();
@@ -93,11 +92,11 @@ public class RegisterPage extends BasePage {
 
     public void registerBirthday(){
         date.click();
-        driver.findElement(By.xpath("//*[@id='day']//*[@value='"+DataHelper.getProperties("register.day")+"']")).click();
+        driver.findElement(By.xpath("//*[@id='day']//*[@value='"+ Configuration.getProperties("register.day")+"']")).click();
         month.click();
-        driver.findElement(By.xpath("//*[@id='month']//*[@value='"+DataHelper.getProperties("register.month")+"']")).click();
+        driver.findElement(By.xpath("//*[@id='month']//*[@value='"+ Configuration.getProperties("register.month")+"']")).click();
         year.click();
-        driver.findElement(By.xpath("//*[@id='year']//*[@value='"+DataHelper.getProperties("register.year")+"']")).click();
+        driver.findElement(By.xpath("//*[@id='year']//*[@value='"+ Configuration.getProperties("register.year")+"']")).click();
     }
 
     public void acceptConditions(){

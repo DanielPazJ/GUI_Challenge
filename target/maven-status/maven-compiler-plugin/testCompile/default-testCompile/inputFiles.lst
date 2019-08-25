@@ -1,6 +1,11 @@
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\registration\RegistrationSteps.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\registration\AssertRegistration.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\HomePage.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\ShoppingCartPage.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\shoppingCart\ShoppingCartSteps.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\helpers\DriverHelper.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\runner\Runner.java
-C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\utils\DataHelper.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\RegisterPage.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\logout\AssertLogoutSteps.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\BasePage.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\login\AssertLoginSteps.java
@@ -9,5 +14,6 @@ C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\login\LoginSte
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\Hook.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\model\User.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\ProductPage.java
-C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\utils\DriverHelper.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\shoppingCart\AssertShoppingCart.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\HomePageSteps.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\utils\Configuration.java
