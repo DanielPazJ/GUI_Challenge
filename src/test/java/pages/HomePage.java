@@ -40,6 +40,14 @@ public class HomePage extends BasePage{
     @FindBy (xpath = "//*[@class='Login__createAccount__38c2o']/a")
     private WebElement resgitrationLink;
 
+    @FindBy(className = "fb-masthead-search__box__input")
+    private WebElement searchBar;
+
+    @FindBy (xpath = "//*[@class='fb-masthead__util-bar__link fb-masthead-search__box__button-search']")
+    private WebElement searchButton;
+
+
+
     public void clickOnLoginLink (){
         optionLogin.click();
         DriverHelper.waitForVisibility(loginPopUp, 2);
@@ -73,6 +81,11 @@ public class HomePage extends BasePage{
         clickOnLoginLink();
         resgitrationLink.click();
         return new RegisterPage(driver);
+    }
+
+    public void searchProduct( String product){
+        searchBar.sendKeys(product);
+        searchButton.click();
     }
 }
 

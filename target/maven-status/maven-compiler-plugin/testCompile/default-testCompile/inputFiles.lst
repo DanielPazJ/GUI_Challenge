@@ -1,5 +1,7 @@
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\SearchPage.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\registration\RegistrationSteps.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\registration\AssertRegistration.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\filter\AssertFilterSteps.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\HomePage.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\ShoppingCartPage.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\shoppingCart\ShoppingCartSteps.java
@@ -10,6 +12,7 @@ C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\logout\AssertL
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\pages\BasePage.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\login\AssertLoginSteps.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\logout\LogoutSteps.java
+C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\filter\FilterSteps.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\login\LoginSteps.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\steps\Hook.java
 C:\Users\DanielSantiago\Desktop\GUI_Challenge\src\test\java\model\User.java

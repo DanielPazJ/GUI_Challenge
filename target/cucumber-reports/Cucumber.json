@@ -1,0 +1,663 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-25T22:55:14.601Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6727869223,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Filter the price",
+        "description": "",
+        "id": "filter;filter-the-price",
+        "after": [
+          {
+            "result": {
+              "duration": 1123600056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15992399938,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9324383952,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for cremas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cremas",
+                  "offset": 13
+                }
+              ],
+              "location": "FilterSteps.iSearchFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12913912701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I apply the filter for Precio between 5.000 and 20.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Precio",
+                  "offset": 23
+                },
+                {
+                  "val": "5.000",
+                  "offset": 38
+                },
+                {
+                  "val": "20.000",
+                  "offset": 48
+                }
+              ],
+              "location": "FilterSteps.iApplyTheFilterForPriceBetweenAnd(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1916167267,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see just products between 5.000 and 20.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5.000",
+                  "offset": 35
+                },
+                {
+                  "val": "20.000",
+                  "offset": 45
+                }
+              ],
+              "location": "AssertFilterSteps.iShouldSeeJustProductsBetweenAnd(double,double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Filter.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9791149497,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T22:56:02.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3111628138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Successful login",
+        "description": "",
+        "id": "login;successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1141787053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5400833530,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "LoginSteps.iLoginWithValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3539978123,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be logged in",
+            "match": {
+              "location": "AssertLoginSteps.IShouldBeSignedIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8769854472,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T22:56:25.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3123574164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Unsuccesful login",
+        "description": "",
+        "id": "login;unsuccesful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1030168196,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2200415055,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I login with invalid email and password credentials",
+            "match": {
+              "location": "LoginSteps.iLoginWithInvalidEmailAndPasswordCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2532246159,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see a login error message",
+            "match": {
+              "location": "AssertLoginSteps.iShouldSeeALoginErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13775890260,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6370941842,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "LoginSteps.iLoginWithValidCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5019534362,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be logged in",
+            "match": {
+              "location": "AssertLoginSteps.IShouldBeSignedIn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T22:56:43.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2918688571,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Successful Logout",
+        "description": "",
+        "id": "logout;successful-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 1106952418,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 468464653,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click logout",
+            "match": {
+              "location": "LogoutSteps.iClickLogout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6206187037,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be signed out",
+            "match": {
+              "location": "AssertLogoutSteps.iShouldBeSignedOut()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Logout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-25T22:57:19.119Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3004023045,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Invalid registration",
+        "description": "",
+        "id": "registration;invalid-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 1016936849,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21587403644,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9736059428,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I try to register",
+            "match": {
+              "location": "RegistrationSteps.iTryToRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3719150915,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill all the field except for celular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "celular",
+                  "offset": 32
+                }
+              ],
+              "location": "RegistrationSteps.iFillAllTheFieldExceptFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187680054,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I try to save my data",
+            "match": {
+              "location": "RegistrationSteps.iTryToSaveMyData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127622612,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see an error message",
+            "match": {
+              "location": "AssertRegistration.IShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Registration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-25T22:57:58.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2976222754,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add a product to the shopping cart",
+        "description": "",
+        "id": "shopping-cart;add-a-product-to-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 978968293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12556912040,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in a product page",
+            "match": {
+              "location": "ShoppingCartSteps.iAmInAProductPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4663462398,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the product to the cart",
+            "match": {
+              "location": "ShoppingCartSteps.iAddTheProductToTheCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120920469,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see a pop up with the confirmation",
+            "match": {
+              "location": "AssertShoppingCart.iShouldSeeAPopUpWithTheConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T22:58:19.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2971490363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Delete  a product of the shopping cart",
+        "description": "",
+        "id": "shopping-cart;delete--a-product-of-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1110448827,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17623088810,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have a product in my shopping cart",
+            "match": {
+              "location": "ShoppingCartSteps.iHaveAProductInMyShoppingCart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10899931948,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I delete the product",
+            "match": {
+              "location": "ShoppingCartSteps.iDeleteTheProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1665235762,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see a message saying that my cart is empty",
+            "match": {
+              "location": "AssertShoppingCart.iShouldSeeAMessageSayingThatMyCartIsEmpty()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart",
+    "description": "",
+    "id": "shopping-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ShoppingCart.feature",
+    "tags": []
+  }
+]

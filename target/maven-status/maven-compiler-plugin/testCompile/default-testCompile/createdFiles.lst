@@ -2,6 +2,8 @@ runner\Runner.class
 helpers\DriverHelper.class
 pages\BasePage.class
 pages\ProductPage.class
+steps\filter\AssertFilterSteps.class
+steps\filter\FilterSteps.class
 pages\RegisterPage.class
 steps\login\LoginSteps.class
 steps\logout\AssertLogoutSteps.class
@@ -12,6 +14,7 @@ steps\registration\RegistrationSteps.class
 Model\User.class
 steps\shoppingCart\AssertShoppingCart.class
 steps\registration\AssertRegistration.class
+pages\SearchPage.class
 steps\Hook.class
 steps\HomePageSteps.class
 steps\logout\LogoutSteps.class
