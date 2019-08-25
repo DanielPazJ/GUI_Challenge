@@ -37,6 +37,9 @@ public class HomePage extends BasePage{
     @FindBy (className = "fb-filter-header__log-out")
     private WebElement logoutLink;
 
+    @FindBy (xpath = "//*[@class='Login__createAccount__38c2o']/a")
+    private WebElement resgitrationLink;
+
     public void clickOnLoginLink (){
         optionLogin.click();
         DriverHelper.waitForVisibility(loginPopUp, 2);
@@ -48,28 +51,28 @@ public class HomePage extends BasePage{
         loginButton.click();
     }
 
-    public String getAccountMessage (WebElement element){
-        DriverHelper.waitForVisibility(element,10);
-        return element.getText();
-   }
-
     public String getLoginMessage (){
-       return getAccountMessage(loginMessage);
+       return getMessage(loginMessage);
     }
 
     public String getLogoutMessage (){
-        return getAccountMessage(logoutMessage);
+        return getMessage(logoutMessage);
     }
 
     public String getErrorLoginMessage (){
-        return getAccountMessage(errorLoginMessage);
+        return getMessage(errorLoginMessage);
     }
 
     public void clickOnLogoutLink (){
         optionLogin.click();
         DriverHelper.waitForVisibility(optionLogin, 10);
         logoutLink.click();
+    }
 
+    public RegisterPage registration(){
+        clickOnLoginLink();
+        resgitrationLink.click();
+        return new RegisterPage(driver);
     }
 }
 

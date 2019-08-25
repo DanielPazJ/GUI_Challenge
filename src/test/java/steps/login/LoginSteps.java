@@ -20,14 +20,14 @@ public class LoginSteps {
     public void iLoginWithValidCredentials() {
 
         homePage.clickOnLoginLink();
-        homePage.enterCredentials(DataHelper
-                .getProperties("valid.user.email"), DataHelper.getProperties("valid.user.password"));
+        homePage.enterCredentials(DataHelper.getProperties("valid.user.email"),
+                DataHelper.getProperties("valid.user.password"));
     }
 
     @When("I login with invalid email and password credentials")
     public void iLoginWithInvalidEmailAndPasswordCredentials() {
         homePage.clickOnLoginLink();
-        homePage.enterCredentials(DataHelper
-                .getProperties("invalid.user.email"), DataHelper.getProperties("invalid.user.password"));
+        homePage.enterCredentials(DataHelper.getProperties("invalid.user.email"),
+                DataHelper.getProperties("invalid.user.password"));
     }
 }

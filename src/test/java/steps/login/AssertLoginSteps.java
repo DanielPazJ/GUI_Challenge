@@ -15,15 +15,13 @@ public class AssertLoginSteps {
     private HomePage homePage;
     public AssertLoginSteps() {
         this.driver = DriverHelper.driver;
-        this. homePage = new HomePage(driver);
+        this.homePage = new HomePage(driver);
     }
 
     @Then("I should be logged in")
     public void IShouldBeSignedIn (){
         assertThat("Name does not match", homePage.getLoginMessage(),
                 equalTo(DataHelper.getProperties("login.message")));
-        //assertThat("Name does not match", homePage.getLoginMessage(), containsString("David"));
-        //assertThat("Name does not match",homePage.getLoginMessage(), equalTo("Bienvenid@,\nDavid"));
     }
 
     @Then("I should see a login error message")
