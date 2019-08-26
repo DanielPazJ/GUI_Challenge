@@ -1,4 +1,4 @@
-package steps;
+package steps.common;
 
 import cucumber.api.java.en.Given;
 import pages.HomePage;

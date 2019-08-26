@@ -45,13 +45,12 @@ public class SearchPage extends BasePage {
     }
 
     public boolean verifyPriceList (double from, double to){
-        List<WebElement> pricesList = driver.findElements(By.className("pod-item"));
+        List<WebElement> pricesList = driver.findElements(By.className("fb-price"));
         int i = 0;
         boolean response = true;
         while (response && i < pricesList.size()) {
-//            String[] prices = pricesList.get(i).findElement(By.className("fb-price")).getText().split(" ");
             double price = Double.valueOf(pricesList.get(i)
-                    .findElement(By.className("fb-price")).getText().split(" ")[1]);
+                    .getText().split(" ")[1]);
             if ( from > price|| price > to) {
                 response = false;
             } else {

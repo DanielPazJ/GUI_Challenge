@@ -92,11 +92,11 @@ public class RegisterPage extends BasePage {
 
     public void registerBirthday(){
         date.click();
-        driver.findElement(By.xpath("//*[@id='day']//*[@value='"+ Configuration.getProperties("register.day")+"']")).click();
+        driver.findElement(By.xpath("//*[@id='day']//*[@value='" + Configuration.getProperties("register.day")+"']")).click();
         month.click();
-        driver.findElement(By.xpath("//*[@id='month']//*[@value='"+ Configuration.getProperties("register.month")+"']")).click();
+        driver.findElement(By.xpath("//*[@id='month']//*[@value='" + Configuration.getProperties("register.month")+"']")).click();
         year.click();
-        driver.findElement(By.xpath("//*[@id='year']//*[@value='"+ Configuration.getProperties("register.year")+"']")).click();
+        driver.findElement(By.xpath("//*[@id='year']//*[@value='" + Configuration.getProperties("register.year")+"']")).click();
     }
 
     public void acceptConditions(){

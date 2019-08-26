@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: runner.Runner
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 220.62 s - in runner.Runner
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 586.716 s <<< FAILURE! - in runner.Runner
+Filter the price(Filter)  Time elapsed: 110.318 s  <<< FAILURE!
+java.lang.AssertionError: 
+Wrong price
+Expected: <true>
+     but: was <false>
+
+Delete  a product of the shopping cart(Shopping Cart)  Time elapsed: 104.743 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EN911016', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\dpaz\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 496997ce5423f5870dfe10d80bd1fcd6
+
