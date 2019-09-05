@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import steps.Hook;
 import utils.Configuration;
 
 public class RegisterPage extends BasePage {
@@ -92,11 +93,11 @@ public class RegisterPage extends BasePage {
 
     public void registerBirthday(){
         date.click();
-        driver.findElement(By.xpath("//*[@id='day']//*[@value='" + Configuration.getProperties("register.day")+"']")).click();
+        Hook.driver.findElement(By.xpath("//*[@id='day']//*[@value='" + Configuration.getProperties("register.day")+"']")).click();
         month.click();
-        driver.findElement(By.xpath("//*[@id='month']//*[@value='" + Configuration.getProperties("register.month")+"']")).click();
+        Hook.driver.findElement(By.xpath("//*[@id='month']//*[@value='" + Configuration.getProperties("register.month")+"']")).click();
         year.click();
-        driver.findElement(By.xpath("//*[@id='year']//*[@value='" + Configuration.getProperties("register.year")+"']")).click();
+        Hook.driver.findElement(By.xpath("//*[@id='year']//*[@value='" + Configuration.getProperties("register.year")+"']")).click();
     }
 
     public void acceptConditions(){
