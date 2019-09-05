@@ -3,8 +3,6 @@ package steps.filter;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import helpers.DriverHelper;
-import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 import pages.SearchPage;
 import steps.Hook;
@@ -33,7 +31,6 @@ public class FilterSteps {
         String range = "$"+filterFrom+" - "+"$"+filterTo;
         searchPage.priceFilter(filterType, range);
     }
-
     @Then("I should see just products between {double} and {double}")
     public void iShouldSeeJustProductsBetweenAnd(double priceFrom, double priceEnd) {
         assertThat("Wrong price",searchPage.verifyPriceList(priceFrom,priceEnd),equalTo(true));
