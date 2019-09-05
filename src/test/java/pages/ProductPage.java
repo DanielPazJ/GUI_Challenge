@@ -3,7 +3,6 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import helpers.DriverHelper;
 
 public class ProductPage extends BasePage{
 
@@ -18,9 +17,9 @@ public class ProductPage extends BasePage{
     private WebElement shoppingCartMessage;
 
     public void addToShoppingCart(){
-        DriverHelper.waitForVisibility(cartButton, 10);
+        driverHelper.waitForVisibility(cartButton, 10);
         cartButton.click();
-        DriverHelper.waitForVisibility(shoppingCartMessage, 10);
+        driverHelper.waitForVisibility(shoppingCartMessage, 10);
     }
 
     public String getShoppingCartMessage (){

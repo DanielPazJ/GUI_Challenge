@@ -1,23 +1,26 @@
 package steps.filter;
 
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import helpers.DriverHelper;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 import pages.SearchPage;
+import steps.Hook;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.IsEqual.equalTo;
 
 
 public class FilterSteps {
 
-    private WebDriver driver;
     private HomePage homePage;
     private SearchPage searchPage;
 
     public FilterSteps() {
-        this.driver = DriverHelper.driver;
-        this.homePage = new HomePage(driver);
-        this.searchPage = new SearchPage(driver);
+        this.homePage = new HomePage(Hook.driver);
+        this.searchPage = new SearchPage(Hook.driver);
     }
 
     @And("I search for ([^\"]*)")
@@ -31,5 +34,9 @@ public class FilterSteps {
         searchPage.priceFilter(filterType, range);
     }
 
+    @Then("I should see just products between {double} and {double}")
+    public void iShouldSeeJustProductsBetweenAnd(double priceFrom, double priceEnd) {
+        assertThat("Wrong price",searchPage.verifyPriceList(priceFrom,priceEnd),equalTo(true));
+    }
 
 }

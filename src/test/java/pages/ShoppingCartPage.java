@@ -3,7 +3,6 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import helpers.DriverHelper;
 
 public class ShoppingCartPage extends BasePage {
 
@@ -19,7 +18,7 @@ public class ShoppingCartPage extends BasePage {
     }
 
     public void deleteProduct(){
-        DriverHelper.waitForVisibility(deleteLink,10);
+        driverHelper.waitForVisibility(deleteLink,10);
         deleteLink.click();
     }
 

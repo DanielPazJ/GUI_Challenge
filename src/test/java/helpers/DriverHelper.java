@@ -2,31 +2,28 @@ package helpers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Configuration;
 
 public class DriverHelper {
 
-    public static WebDriver driver;
+    public WebDriver driver;
 
-    public static void initializeDriver(){
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        driver = new ChromeDriver(options);
+    public DriverHelper(WebDriver driver){
+        this.driver = driver;
     }
 
-    public static void closeDriver(){
-        driver.quit();
-    }
-
-    public static void waitForVisibility(WebElement element, int time){
+    public void waitForVisibility(WebElement element, int time){
         WebDriverWait webDriverWait = new WebDriverWait(driver, time);
         webDriverWait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public static WebDriver getDriver (){
+    public WebDriver getDriver (){
         return driver;
+    }
+
+    public void openPage (String page){
+        driver.get(Configuration.getProperties(page));
     }
 }

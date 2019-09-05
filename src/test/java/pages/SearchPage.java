@@ -1,11 +1,10 @@
 package pages;
 
-
-import helpers.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import steps.Hook;
 
 import java.util.List;
 
@@ -26,9 +25,9 @@ public class SearchPage extends BasePage {
         searchFilter(range, "//*[@class='content-text-verticalFilter']");
     }
 
-    public void searchFilter(String filterType, String xpath) {
-        DriverHelper.waitForVisibility(filterBox, 10);
-        List<WebElement> filters = driver.findElements(By.xpath(xpath));
+    private void searchFilter(String filterType, String xpath) {
+        driverHelper.waitForVisibility(filterBox, 10);
+        List<WebElement> filters = Hook.driver.findElements(By.xpath(xpath));
         WebElement filterSelected = null;
         int i = 0;
         while (i < filters.size()) {
@@ -45,7 +44,7 @@ public class SearchPage extends BasePage {
     }
 
     public boolean verifyPriceList (double from, double to){
-        List<WebElement> pricesList = driver.findElements(By.className("fb-price"));
+        List<WebElement> pricesList = Hook.driver.findElements(By.className("fb-price"));
         int i = 0;
         boolean response = true;
         while (response && i < pricesList.size()) {

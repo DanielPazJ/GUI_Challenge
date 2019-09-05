@@ -3,7 +3,6 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import helpers.DriverHelper;
 
 public class HomePage extends BasePage{
 
@@ -50,7 +49,7 @@ public class HomePage extends BasePage{
 
     public void clickOnLoginLink (){
         optionLogin.click();
-        DriverHelper.waitForVisibility(loginPopUp, 2);
+        driverHelper.waitForVisibility(loginPopUp, 2);
     }
 
     public void enterCredentials(String userEmail, String userPassword) {
@@ -73,7 +72,7 @@ public class HomePage extends BasePage{
 
     public void clickOnLogoutLink (){
         optionLogin.click();
-        DriverHelper.waitForVisibility(optionLogin, 10);
+        driverHelper.waitForVisibility(optionLogin, 10);
         logoutLink.click();
     }
 

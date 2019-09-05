@@ -6,16 +6,17 @@ import org.openqa.selenium.support.PageFactory;
 import helpers.DriverHelper;
 
 public class BasePage {
+
+    protected DriverHelper driverHelper;
     protected WebDriver driver;
 
-
-    public BasePage(WebDriver driver){
-        this.driver = driver;
+    BasePage(WebDriver driver){
+        driverHelper = new DriverHelper(driver);
         PageFactory.initElements(driver, this);
     }
 
     public String getMessage(WebElement element){
-        DriverHelper.waitForVisibility(element,10);
+        driverHelper.waitForVisibility(element,10);
         return element.getText();
    }
 }
