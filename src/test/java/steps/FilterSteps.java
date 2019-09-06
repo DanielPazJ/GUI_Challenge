@@ -1,6 +1,5 @@
-package steps.filter;
+package steps;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pages.HomePage;
@@ -19,11 +18,6 @@ public class FilterSteps {
     public FilterSteps() {
         this.homePage = new HomePage(Hook.driver);
         this.searchPage = new SearchPage(Hook.driver);
-    }
-
-    @And("I search for ([^\"]*)")
-    public void iSearchFor(String product) {
-        homePage.searchProduct(product);
     }
 
     @When("I apply the filter for ([^\"]*) between ([^\"]*) and ([^\"]*)")

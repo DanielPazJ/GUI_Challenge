@@ -19,10 +19,6 @@ public class DriverHelper {
         webDriverWait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public WebDriver getDriver (){
-        return driver;
-    }
-
     public void openPage (String page){
         driver.get(Configuration.getProperties(page));
     }

@@ -4,11 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.Map;
+
 public class HomePage extends BasePage{
 
-    public HomePage(WebDriver driver) {
-        super(driver);
-    }
     @FindBy(id = "header-login-modal")
     private WebElement optionLogin;
 
@@ -33,7 +32,7 @@ public class HomePage extends BasePage{
     @FindBy (xpath = "//*[@class='fb-masthead-login__name re-design-cl__name login-redesing_logout-box']")
     private WebElement logoutMessage;
 
-    @FindBy (className = "fb-filter-header__log-out")
+    @FindBy (xpath = "//*[@class='fb-filter-header__log-out']")
     private WebElement logoutLink;
 
     @FindBy (xpath = "//*[@class='Login__createAccount__38c2o']/a")
@@ -45,34 +44,37 @@ public class HomePage extends BasePage{
     @FindBy (xpath = "//*[@class='fb-masthead__util-bar__link fb-masthead-search__box__button-search']")
     private WebElement searchButton;
 
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
 
-
-    public void clickOnLoginLink (){
+    private void clickOnLoginLink(){
         optionLogin.click();
         driverHelper.waitForVisibility(loginPopUp, 2);
     }
 
-    public void enterCredentials(String userEmail, String userPassword) {
-        userInput.sendKeys(userEmail);
-        passwordInput.sendKeys(userPassword);
+    public void enterLoginCredentials(Map<String, String> loginData) {
+        clickOnLoginLink();
+        userInput.sendKeys(loginData.get("Email"));
+        passwordInput.sendKeys(loginData.get("Password"));
         loginButton.click();
     }
 
     public String getLoginMessage (){
-       return getMessage(loginMessage);
+        return getMessage(loginMessage).split(",")[0];
     }
 
-    public String getLogoutMessage (){
-        return getMessage(logoutMessage);
-    }
-
-    public String getErrorLoginMessage (){
+    public String getLoginErrorMessage (){
         return getMessage(errorLoginMessage);
     }
 
-    public void clickOnLogoutLink (){
+    public String getLogoutMessage (){
+        return getMessage(logoutMessage).split("\\n")[0];
+    }
+
+    public void logout(){
         optionLogin.click();
-        driverHelper.waitForVisibility(optionLogin, 10);
+        driverHelper.waitForVisibility(logoutLink, 10);
         logoutLink.click();
     }
 

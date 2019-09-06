@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="runner.Runner" time="119.082" tests="7" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="runner.Runner" time="177.88" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\dpaz\AppData\Local\Temp\surefire3732059462146010740\surefirebooter1539635841530776478.jar C:\Users\dpaz\AppData\Local\Temp\surefire3732059462146010740 2019-09-05T10-32-05_069-jvmRun1 surefire1716123412807217845tmp surefire_099925867561446156tmp"/>
+    <property name="sun.java.command" value="C:\Users\dpaz\AppData\Local\Temp\surefire57960875831573608\surefirebooter3941664517072618198.jar C:\Users\dpaz\AppData\Local\Temp\surefire57960875831573608 2019-09-06T17-09-30_727-jvmRun1 surefire1447925030782645890tmp surefire_08117742194563984224tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\dpaz\OneDrive - ENDAVA\Desktop\GUI Challenge 2.0\GUI_Challenge\target\test-classes;C:\Users\dpaz\OneDrive - ENDAVA\Desktop\GUI Challenge 2.0\GUI_Challenge\target\GUIChallenge-1.0-SNAPSHOT.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\dpaz\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\dpaz\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\dpaz\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dpaz\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\dpaz\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\dpaz\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\dpaz\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\dpaz\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\dpaz\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\dpaz\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\dpaz\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\dpaz\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\dpaz\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dpaz\.m2\repository\io\cucumber\cucumber-junit\4.3.1\cucumber-junit-4.3.1.jar;C:\Users\dpaz\.m2\repository\io\cucumber\cucumber-core\4.3.1\cucumber-core-4.3.1.jar;C:\Users\dpaz\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\dpaz\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\dpaz\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\dpaz\.m2\repository\io\cucumber\cucumber-expressions\6.2.2\cucumber-expressions-6.2.2.jar;C:\Users\dpaz\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\dpaz\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\dpaz\.m2\repository\io\cucumber\cucumber-java\4.3.1\cucumber-java-4.3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dpaz"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\dpaz\AppData\Local\Temp\surefire3732059462146010740\surefirebooter1539635841530776478.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dpaz\AppData\Local\Temp\surefire57960875831573608\surefirebooter3941664517072618198.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\MySQL\MySQL Enterprise Backup 8.0\\bin;C:\Program Files\nodejs\;C:\Users\dpaz\OneDrive - ENDAVA\Documents\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\dpaz\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dpaz\AppData\Roaming\npm;;C:\Users\dpaz\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\MySQL\MySQL Enterprise Backup 8.0\\bin;C:\Program Files\nodejs\;C:\Users\dpaz\OneDrive - ENDAVA\Documents\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\dpaz\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dpaz\AppData\Roaming\npm;;C:\Users\dpaz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.221-b11"/>
@@ -60,37 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Filter the price" classname="Filter" time="27.318">
-    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911016&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\dpaz\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c4a750aefe5c031b12f0cc62622a39db" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EN911016', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\dpaz\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c4a750aefe5c031b12f0cc62622a39db
-</error>
-    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 27479
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Sep 05, 2019 10:32:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Successful login" classname="Login" time="13.696"/>
-  <testcase name="Unsuccesful login" classname="Login" time="13.458"/>
-  <testcase name="Successful Logout" classname="Logout" time="19.427"/>
-  <testcase name="Invalid registration" classname="Registration" time="16.441">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 12064
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Sep 05, 2019 10:33:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Add a product to the shopping cart" classname="Shopping Cart" time="11.545"/>
-  <testcase name="Delete  a product of the shopping cart" classname="Shopping Cart" time="15.76"/>
+  <testcase name="Filter the price" classname="Filter" time="35.816"/>
+  <testcase name="Successful login" classname="Login" time="14.67"/>
+  <testcase name="Unsuccesful login" classname="Login" time="17.941"/>
+  <testcase name="Successful Logout" classname="Logout" time="22.012"/>
+  <testcase name="Invalid registration" classname="Registration" time="21.169"/>
+  <testcase name="See the confirmation message in the pop up" classname="Shopping Cart" time="32.824"/>
+  <testcase name="Delete  a product of the shopping cart" classname="Shopping Cart" time="31.603"/>
 </testsuite>

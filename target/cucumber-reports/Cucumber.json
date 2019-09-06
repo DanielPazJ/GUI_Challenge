@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-05T15:32:08.484Z",
+        "start_timestamp": "2019-09-06T22:09:35.353Z",
         "before": [
           {
             "result": {
-              "duration": 6168503500,
+              "duration": 7979723900,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 980632700,
+              "duration": 1276801200,
               "status": "passed"
             },
             "match": {
@@ -35,19 +35,19 @@
         "steps": [
           {
             "result": {
-              "duration": 5430678000,
+              "duration": 6262120400,
               "status": "passed"
             },
             "line": 4,
             "name": "I am in the Falabella homepage",
             "match": {
-              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8893421200,
+              "duration": 11216272300,
               "status": "passed"
             },
             "line": 5,
@@ -59,13 +59,13 @@
                   "offset": 13
                 }
               ],
-              "location": "FilterSteps.iSearchFor(String)"
+              "location": "CommonSteps.iSearchFor(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5166842700,
+              "duration": 7586495800,
               "status": "passed"
             },
             "line": 6,
@@ -91,9 +91,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027EN911016\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\\Users\\dpaz\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c4a750aefe5c031b12f0cc62622a39db\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)\r\n\tat pages.SearchPage.verifyPriceList(SearchPage.java:52)\r\n\tat steps.filter.FilterSteps.iShouldSeeJustProductsBetweenAnd(FilterSteps.java:39)\r\n\tat ✽.I should see just products between 5.000 and 20.000(file:src/test/resources/features/Filter.feature:7)\r\n",
-              "duration": 670762100,
-              "status": "failed"
+              "duration": 1489337300,
+              "status": "passed"
             },
             "line": 7,
             "name": "I should see just products between 5.000 and 20.000",
@@ -134,24 +133,24 @@
         "steps": [
           {
             "result": {
-              "duration": 4418569500,
+              "duration": 4349085200,
               "status": "passed"
             },
             "line": 4,
             "name": "I am in the Falabella homepage",
             "match": {
-              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2019-09-05T15:32:35.802Z",
+        "start_timestamp": "2019-09-06T22:10:11.172Z",
         "before": [
           {
             "result": {
-              "duration": 2656101300,
+              "duration": 2939971600,
               "status": "passed"
             },
             "match": {
@@ -166,7 +165,7 @@
         "after": [
           {
             "result": {
-              "duration": 870379600,
+              "duration": 1132496000,
               "status": "passed"
             },
             "match": {
@@ -179,25 +178,51 @@
         "steps": [
           {
             "result": {
-              "duration": 3539753500,
+              "duration": 4018503500,
               "status": "passed"
             },
             "line": 7,
-            "name": "I login with valid credentials",
+            "name": "I login with credentials",
             "match": {
-              "location": "LoginSteps.iLoginWithValidCredentials()"
+              "location": "LoginSteps.iLoginWithCredentials(String,String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "challengecorreo@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "clavechallenge"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2210562400,
+              "duration": 2230382900,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I should be logged in",
+            "line": 11,
+            "name": "I should see the message: Bienvenid@",
             "match": {
-              "location": "LoginSteps.IShouldBeSignedIn()"
+              "arguments": [
+                {
+                  "val": "Bienvenid@",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.iShouldSeeTheMessage(String)"
             },
             "keyword": "Then "
           }
@@ -212,24 +237,24 @@
         "steps": [
           {
             "result": {
-              "duration": 3216040400,
+              "duration": 6001861200,
               "status": "passed"
             },
             "line": 4,
             "name": "I am in the Falabella homepage",
             "match": {
-              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2019-09-05T15:32:49.498Z",
+        "start_timestamp": "2019-09-06T22:10:25.843Z",
         "before": [
           {
             "result": {
-              "duration": 2790803300,
+              "duration": 2758560600,
               "status": "passed"
             },
             "match": {
@@ -237,14 +262,14 @@
             }
           }
         ],
-        "line": 10,
+        "line": 13,
         "name": "Unsuccesful login",
         "description": "",
         "id": "login;unsuccesful-login",
         "after": [
           {
             "result": {
-              "duration": 1113956400,
+              "duration": 1387234600,
               "status": "passed"
             },
             "match": {
@@ -257,25 +282,51 @@
         "steps": [
           {
             "result": {
-              "duration": 4049597800,
+              "duration": 5408186500,
               "status": "passed"
             },
-            "line": 11,
-            "name": "I login with invalid email and password credentials",
+            "line": 14,
+            "name": "I login with credentials",
             "match": {
-              "location": "LoginSteps.iLoginWithInvalidEmailAndPasswordCredentials()"
+              "location": "LoginSteps.iLoginWithCredentials(String,String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "challengecorre@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "clavechalleng"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2288040000,
+              "duration": 2384773700,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I should see a login error message",
+            "line": 18,
+            "name": "I should see a login error message that says: E-mail o clave incorrecta. Por favor inténtalo nuevamente.",
             "match": {
-              "location": "LoginSteps.iShouldSeeALoginErrorMessage()"
+              "arguments": [
+                {
+                  "val": "E-mail o clave incorrecta. Por favor inténtalo nuevamente.",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginSteps.iShouldSeeALoginErrorMessageThatSays(String)"
             },
             "keyword": "Then "
           }
@@ -293,56 +344,11 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4663056100,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am in the Falabella homepage",
-            "match": {
-              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4046612300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I login with valid credentials",
-            "match": {
-              "location": "LoginSteps.iLoginWithValidCredentials()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1780892500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I should be logged in",
-            "match": {
-              "location": "LoginSteps.IShouldBeSignedIn()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-09-05T15:33:02.956Z",
+        "start_timestamp": "2019-09-06T22:10:43.784Z",
         "before": [
           {
             "result": {
-              "duration": 3017669100,
+              "duration": 2981364800,
               "status": "passed"
             },
             "match": {
@@ -350,14 +356,14 @@
             }
           }
         ],
-        "line": 8,
+        "line": 3,
         "name": "Successful Logout",
         "description": "",
         "id": "logout;successful-logout",
         "after": [
           {
             "result": {
-              "duration": 955446800,
+              "duration": 1110743800,
               "status": "passed"
             },
             "match": {
@@ -370,25 +376,75 @@
         "steps": [
           {
             "result": {
-              "duration": 380532000,
+              "duration": 5163793500,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I click logout",
+            "line": 4,
+            "name": "I am in the Falabella homepage",
             "match": {
-              "location": "LogoutSteps.iClickLogout()"
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4222668300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login with credentials",
+            "match": {
+              "location": "LoginSteps.iLoginWithCredentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "challengecorreo@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "clavechallenge"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4583315500,
+              "duration": 2019141800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I logout",
+            "match": {
+              "location": "LogoutSteps.iLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6514401900,
               "status": "passed"
             },
             "line": 10,
-            "name": "I should be signed out",
+            "name": "I should see in the homepage the message \"Inicia sesión\"",
             "match": {
-              "location": "LogoutSteps.iShouldBeSignedOut()"
+              "arguments": [
+                {
+                  "val": "\"Inicia sesión\"",
+                  "offset": 41
+                }
+              ],
+              "location": "LogoutSteps.iShouldSeeInTheHomepageTheMessage(String)"
             },
             "keyword": "Then "
           }
@@ -406,11 +462,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-05T15:33:22.383Z",
+        "start_timestamp": "2019-09-06T22:11:05.798Z",
         "before": [
           {
             "result": {
-              "duration": 2656848700,
+              "duration": 3383591300,
               "status": "passed"
             },
             "match": {
@@ -425,7 +481,7 @@
         "after": [
           {
             "result": {
-              "duration": 845429700,
+              "duration": 1110883800,
               "status": "passed"
             },
             "match": {
@@ -438,53 +494,102 @@
         "steps": [
           {
             "result": {
-              "duration": 3477134500,
+              "duration": 4332882200,
               "status": "passed"
             },
             "line": 4,
             "name": "I am in the Falabella homepage",
             "match": {
-              "location": "HomePageSteps.IAmInTheFalabellaHomepage()"
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 7729455300,
+              "duration": 11911802900,
               "status": "passed"
             },
             "line": 5,
-            "name": "I try to register",
+            "name": "I try to register with the information",
             "match": {
-              "location": "RegistrationSteps.iTryToRegister()"
+              "location": "RegistrationSteps.iTryToRegisterWithTheInformation(String,String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "First Name",
+                  "Diana"
+                ]
+              },
+              {
+                "cells": [
+                  "Father Last Name",
+                  "Hernandez"
+                ]
+              },
+              {
+                "cells": [
+                  "Mother Last Name",
+                  "Hernandez"
+                ]
+              },
+              {
+                "cells": [
+                  "Email Address",
+                  "test@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Test1234"
+                ]
+              },
+              {
+                "cells": [
+                  "Confirm Password",
+                  "Test1234"
+                ]
+              },
+              {
+                "cells": [
+                  "ID Number",
+                  "1015896457"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Female"
+                ]
+              },
+              {
+                "cells": [
+                  "Birthday date",
+                  "5/05/1995"
+                ]
+              },
+              {
+                "cells": [
+                  "Cellphone",
+                  ""
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat pages.RegisterPage.registerBirthday(RegisterPage.java:95)\r\n\tat steps.registration.RegistrationSteps.iFillAllTheFieldExceptFor(RegistrationSteps.java:59)\r\n\tat ✽.I fill all the field except for celular(file:src/test/resources/features/Registration.feature:6)\r\n",
-              "duration": 1730946900,
-              "status": "failed"
+              "duration": 298731200,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "I fill all the field except for celular",
-            "match": {
-              "arguments": [
-                {
-                  "val": "celular",
-                  "offset": 32
-                }
-              ],
-              "location": "RegistrationSteps.iFillAllTheFieldExceptFor(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 21500,
-              "status": "skipped"
-            },
-            "line": 7,
+            "line": 17,
             "name": "I try to save my data",
             "match": {
               "location": "RegistrationSteps.iTryToSaveMyData()"
@@ -493,13 +598,19 @@
           },
           {
             "result": {
-              "duration": 12700,
-              "status": "skipped"
+              "duration": 131008500,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "I should see an error message",
+            "line": 18,
+            "name": "I should see an error message that says: Debes ingresar un celular",
             "match": {
-              "location": "RegistrationSteps.IShouldSeeAnErrorMessage()"
+              "arguments": [
+                {
+                  "val": "Debes ingresar un celular",
+                  "offset": 41
+                }
+              ],
+              "location": "RegistrationSteps.IShouldSeeAnErrorMessageThatSays(String)"
             },
             "keyword": "Then "
           }
@@ -517,80 +628,74 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-05T15:33:38.824Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2800423200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.initializeTest()"
-            }
-          }
-        ],
         "line": 3,
-        "name": "Add a product to the shopping cart",
+        "name": "",
         "description": "",
-        "id": "shopping-cart;add-a-product-to-the-shopping-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 812485300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.endTest()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3980443700,
+              "duration": 5384536400,
               "status": "passed"
             },
             "line": 4,
-            "name": "I am in a product page",
+            "name": "I am in the Falabella homepage",
             "match": {
-              "location": "ShoppingCartSteps.iAmInAProductPage()"
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3805205200,
+              "duration": 12188391200,
               "status": "passed"
             },
             "line": 5,
+            "name": "I search for audifonos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "audifonos",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonSteps.iSearchFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5956846400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select a product to go to it is page",
+            "match": {
+              "location": "ShoppingCartSteps.iSelectAProductToGoToItIsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4606804800,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "I add the product to the cart",
             "match": {
               "location": "ShoppingCartSteps.iAddTheProductToTheCart()"
             },
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 145520300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I should see a pop up with the confirmation",
-            "match": {
-              "location": "ShoppingCartSteps.iShouldSeeAPopUpWithTheConfirmation()"
-            },
-            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2019-09-05T15:33:50.369Z",
+        "start_timestamp": "2019-09-06T22:11:26.968Z",
         "before": [
           {
             "result": {
-              "duration": 2708561400,
+              "duration": 2965224400,
               "status": "passed"
             },
             "match": {
@@ -599,13 +704,13 @@
           }
         ],
         "line": 9,
-        "name": "Delete  a product of the shopping cart",
+        "name": "See the confirmation message in the pop up",
         "description": "",
-        "id": "shopping-cart;delete--a-product-of-the-shopping-cart",
+        "id": "shopping-cart;see-the-confirmation-message-in-the-pop-up",
         "after": [
           {
             "result": {
-              "duration": 952976400,
+              "duration": 1635275100,
               "status": "passed"
             },
             "match": {
@@ -618,22 +723,136 @@
         "steps": [
           {
             "result": {
-              "duration": 7439273800,
+              "duration": 86832500,
               "status": "passed"
             },
             "line": 10,
-            "name": "I have a product in my shopping cart",
+            "name": "I should see a pop up with the confirmation message: Agregado",
             "match": {
-              "location": "ShoppingCartSteps.iHaveAProductInMyShoppingCart()"
+              "arguments": [
+                {
+                  "val": "Agregado",
+                  "offset": 53
+                }
+              ],
+              "location": "ShoppingCartSteps.iShouldSeeAPopUpWithTheConfirmationMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3923461800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in the Falabella homepage",
+            "match": {
+              "location": "CommonSteps.IAmInTheFalabellaHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4021114800,
+              "duration": 8211773300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 5,
+            "name": "I search for audifonos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "audifonos",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonSteps.iSearchFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5636171300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select a product to go to it is page",
+            "match": {
+              "location": "ShoppingCartSteps.iSelectAProductToGoToItIsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800079900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add the product to the cart",
+            "match": {
+              "location": "ShoppingCartSteps.iAddTheProductToTheCart()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-06T22:11:59.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3009174200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Delete  a product of the shopping cart",
+        "description": "",
+        "id": "shopping-cart;delete--a-product-of-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1308711400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4237484800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am in the shopping cart page",
+            "match": {
+              "location": "ShoppingCartSteps.iAmInTheShoppingCartPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770353100,
+              "status": "passed"
+            },
+            "line": 14,
             "name": "I delete the product",
             "match": {
               "location": "ShoppingCartSteps.iDeleteTheProduct()"
@@ -642,13 +861,19 @@
           },
           {
             "result": {
-              "duration": 637960900,
+              "duration": 705676600,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I should see a message saying that my cart is empty",
+            "line": 15,
+            "name": "I should that my cart is empty by the message: Tu Bolsa de Compras está vacía. Agrega productos ahora",
             "match": {
-              "location": "ShoppingCartSteps.iShouldSeeAMessageSayingThatMyCartIsEmpty()"
+              "arguments": [
+                {
+                  "val": "Tu Bolsa de Compras está vacía. Agrega productos ahora",
+                  "offset": 47
+                }
+              ],
+              "location": "ShoppingCartSteps.iShouldThatMyCartIsEmptyByTheMessage(String)"
             },
             "keyword": "Then "
           }

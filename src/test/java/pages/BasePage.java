@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import helpers.DriverHelper;
+import steps.Hook;
 
 public class BasePage {
 
@@ -11,6 +12,7 @@ public class BasePage {
     protected WebDriver driver;
 
     BasePage(WebDriver driver){
+        this.driver = Hook.driver;
         driverHelper = new DriverHelper(driver);
         PageFactory.initElements(driver, this);
     }

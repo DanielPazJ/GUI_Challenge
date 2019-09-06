@@ -6,15 +6,15 @@ import org.openqa.selenium.support.FindBy;
 
 public class ProductPage extends BasePage{
 
-    public ProductPage(WebDriver driver) {
-        super(driver);
-    }
-
     @FindBy(xpath = "//button[@class='fb-btn fb-btn-primary fb-product-cta__controls--actions--choose full-width-btn']")
     private WebElement cartButton;
 
     @FindBy(xpath = "//*[@id='fb-overlay']//*[@class='fb-added-to-basket__title']")
     private WebElement shoppingCartMessage;
+
+    public ProductPage(WebDriver driver) {
+        super(driver);
+    }
 
     public void addToShoppingCart(){
         driverHelper.waitForVisibility(cartButton, 10);

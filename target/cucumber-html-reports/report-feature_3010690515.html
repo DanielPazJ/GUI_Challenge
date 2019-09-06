@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Automation Report</td>
               <td>1</td>
-            <td>05 Sep 2019, 10:34</td>
+            <td>06 Sep 2019, 17:12</td>
     </tr>
   </tbody>
 </table>
@@ -130,19 +130,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Filter</td>
-          <td      class="passed"    >3</td>
-          <td      class="failed"    >1</td>
+          <td      class="passed"    >4</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">4</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="20161704000">20.161</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="26554225800">26.554</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -174,7 +174,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">Filter</span>
   
@@ -192,12 +192,12 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">20.161</span>
+  <span class="lead-duration duration">26.554</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Filter the price</span>
   
@@ -208,7 +208,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
   <div class="inner-level hooks-element-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
@@ -229,7 +229,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hook.initializeTest()</span>
                         
-  <span class="lead-duration duration">6.168</span>
+  <span class="lead-duration duration">7.979</span>
 
           </div>
 
@@ -247,9 +247,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -259,14 +259,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am in the Falabella homepage</span>
   
-  <span class="lead-duration duration">5.430</span>
+  <span class="lead-duration duration">6.262</span>
 
 </div>
 
@@ -291,7 +291,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I search for <span class="argument">cremas</span></span>
   
-  <span class="lead-duration duration">8.893</span>
+  <span class="lead-duration duration">11.216</span>
 
 </div>
 
@@ -316,7 +316,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I apply the filter for <span class="argument">Precio</span> between <span class="argument">5.000</span> and <span class="argument">20.000</span></span>
   
-  <span class="lead-duration duration">5.166</span>
+  <span class="lead-duration duration">7.586</span>
 
 </div>
 
@@ -337,51 +337,17 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I should see just products between <span class="argument">5.000</span> and <span class="argument">20.000</span></span>
   
-  <span class="lead-duration duration">0.670</span>
+  <span class="lead-duration duration">1.489</span>
 
 </div>
 
         
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.StaleElementReferenceException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EN911016', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\dpaz\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c4a750aefe5c031b12f0cc62622a39db
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-	at pages.SearchPage.verifyPriceList(SearchPage.java:52)
-	at steps.filter.FilterSteps.iShouldSeeJustProductsBetweenAnd(FilterSteps.java:39)
-	at &#10045;.I should see just products between 5.000 and 20.000(file:src/test/resources/features/Filter.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -400,7 +366,7 @@ Session ID: c4a750aefe5c031b12f0cc62622a39db
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -412,13 +378,13 @@ Session ID: c4a750aefe5c031b12f0cc62622a39db
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hook.endTest()</span>
                         
-  <span class="lead-duration duration">0.980</span>
+  <span class="lead-duration duration">1.276</span>
 
           </div>
 

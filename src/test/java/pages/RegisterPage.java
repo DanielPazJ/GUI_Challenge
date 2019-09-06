@@ -7,11 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import steps.Hook;
 import utils.Configuration;
 
-public class RegisterPage extends BasePage {
+import java.util.Map;
 
-    public RegisterPage(WebDriver driver) {
-        super(driver);
-    }
+public class RegisterPage extends BasePage {
 
     @FindBy(id = "user")
     private WebElement userName;
@@ -61,50 +59,44 @@ public class RegisterPage extends BasePage {
     @FindBy(id = "mensajeCelVacio")
     private WebElement errorCellphoneMessage;
 
-    public void fillRegister(String dataField){
-
-        if(dataField.equals("name")){
-            userName.sendKeys(Configuration.getProperties("register.name"));
-        }else if(dataField.equals("fathersLastName")){
-            fathersLastName.sendKeys(Configuration.getProperties("register.lastname"));
-        }else if(dataField.equals("mothersLastName")){
-            mothersLastName.sendKeys(Configuration.getProperties("register.lastname"));
-        }else if(dataField.equals("email")){
-            email.sendKeys(Configuration.getProperties("register.email"));
-        }else if(dataField.equals("password")){
-            password.sendKeys(Configuration.getProperties("register.password"));
-        }else if(dataField.equals("confirmPassword")) {
-            confirmPassword.sendKeys(Configuration.getProperties("register.password"));
-        }else if(dataField.equals("idNumber")){
-            idNumber.sendKeys(Configuration.getProperties("register.idNumber"));
-        }else if(dataField.equals("cellphone")){
-            cellphone.sendKeys(Configuration.getProperties("register.cellphone"));
-        }
+    public RegisterPage(WebDriver driver) {
+        super(driver);
     }
 
-    public void registerGender (){
+    public void fillRegisterForm (Map<String, String> registrationData){
 
-        if(Configuration.getProperties("register.gender").equals("Female")){
+            userName.sendKeys(registrationData.get("First Name"));
+            fathersLastName.sendKeys(registrationData.get("Father Last Name"));
+            mothersLastName.sendKeys(registrationData.get("Mother Last Name"));
+            email.sendKeys(registrationData.get("Email Address"));
+            password.sendKeys(registrationData.get("Password"));
+            confirmPassword.sendKeys(registrationData.get("Confirm Password"));
+            idNumber.sendKeys(registrationData.get("ID Number"));
+            cellphone.sendKeys(registrationData.get("Cellphone"));
+            registerBirthday(registrationData.get("Birthday date"));
+            registerGender(registrationData.get("Gender"));
+    }
+
+    private void registerGender(String gender){
+        if(gender.equals("Female")){
             femaleGender.click();
         }else{
             maleGender.click();
         }
     }
 
-    public void registerBirthday(){
+    private void registerBirthday(String birthday){
+        String[] birthdayDate = birthday.split("/");
         date.click();
-        Hook.driver.findElement(By.xpath("//*[@id='day']//*[@value='" + Configuration.getProperties("register.day")+"']")).click();
+        Hook.driver.findElement(By.xpath("//*[@id='day']//*[@value='" + birthdayDate[0] + "']")).click();
         month.click();
-        Hook.driver.findElement(By.xpath("//*[@id='month']//*[@value='" + Configuration.getProperties("register.month")+"']")).click();
+        Hook.driver.findElement(By.xpath("//*[@id='month']//*[@value='" + birthdayDate[1] + "']")).click();
         year.click();
-        Hook.driver.findElement(By.xpath("//*[@id='year']//*[@value='" + Configuration.getProperties("register.year")+"']")).click();
-    }
-
-    public void acceptConditions(){
-        acceptTerms.click();
+        Hook.driver.findElement(By.xpath("//*[@id='year']//*[@value='" + birthdayDate[2] +"']")).click();
     }
 
     public void acceptRegistration (){
+        acceptTerms.click();
         registryButton.click();
     }
 

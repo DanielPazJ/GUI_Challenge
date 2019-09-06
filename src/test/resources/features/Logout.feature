@@ -1,10 +1,10 @@
 Feature: Logout
 
-Background:
-  Given I am in the Falabella homepage
-  And I login with valid credentials
-  And I should be logged in
-
   Scenario: Successful Logout
-    When I click logout
-    Then I should be signed out
+    Given I am in the Falabella homepage
+    When I login with credentials
+      | Fields   | Values                    |
+      | Email    | challengecorreo@gmail.com |
+      | Password | clavechallenge            |
+    And I logout
+    Then I should see in the homepage the message "Inicia sesión"

@@ -12,7 +12,6 @@ public class ShoppingCartPage extends BasePage {
     @FindBy(xpath =  "//*[@class='fb-order-status__empty-basket']")
     private WebElement shoppingCartEmptyMessage;
 
-
     public ShoppingCartPage(WebDriver driver) {
         super(driver);
     }
@@ -23,7 +22,8 @@ public class ShoppingCartPage extends BasePage {
     }
 
     public String shoppingCartEmptyMessage(){
-        return getMessage(shoppingCartEmptyMessage);
+        driverHelper.waitForVisibility(shoppingCartEmptyMessage, 10);
+        return getMessage(shoppingCartEmptyMessage).split(">>")[0];
     }
 
 

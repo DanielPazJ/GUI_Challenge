@@ -1,12 +1,15 @@
 Feature: Shopping Cart
 
-  Scenario: Add a product to the shopping cart
-    Given I am in a product page
+  Background:
+    Given I am in the Falabella homepage
+    And I search for audifonos
+    And I select a product to go to it is page
     When I add the product to the cart
-    Then I should see a pop up with the confirmation
 
+  Scenario: See the confirmation message in the pop up
+    Then I should see a pop up with the confirmation message: Agregado
 
   Scenario: Delete  a product of the shopping cart
-    Given I have a product in my shopping cart
+    Given I am in the shopping cart page
     When I delete the product
-    Then I should see a message saying that my cart is empty
+    Then I should that my cart is empty by the message: Tu Bolsa de Compras está vacía. Agrega productos ahora
