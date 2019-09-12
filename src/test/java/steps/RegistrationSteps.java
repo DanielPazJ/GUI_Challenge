@@ -5,7 +5,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pages.HomePage;
 import pages.RegisterPage;
-import steps.Hook;
 import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -17,8 +16,8 @@ public class RegistrationSteps {
     private RegisterPage registerPage;
 
     public RegistrationSteps() {
-        this.homePage = new HomePage(Hook.driver);
-        this.registerPage = new RegisterPage(Hook.driver);
+        this.homePage = new HomePage();
+        this.registerPage = new RegisterPage();
     }
 
     @When("I try to register with the information")

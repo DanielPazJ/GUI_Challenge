@@ -2,9 +2,7 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pages.HomePage;
 import pages.SearchPage;
-import steps.Hook;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -12,12 +10,10 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 public class FilterSteps {
 
-    private HomePage homePage;
     private SearchPage searchPage;
 
     public FilterSteps() {
-        this.homePage = new HomePage(Hook.driver);
-        this.searchPage = new SearchPage(Hook.driver);
+        this.searchPage = new SearchPage();
     }
 
     @When("I apply the filter for ([^\"]*) between ([^\"]*) and ([^\"]*)")

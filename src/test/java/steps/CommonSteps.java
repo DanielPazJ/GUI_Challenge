@@ -3,20 +3,16 @@ package steps;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import helpers.DriverHelper;
-import org.openqa.selenium.WebDriver;
 import pages.HomePage;
-import steps.Hook;
 
 public class CommonSteps {
 
-    private WebDriver driver;
     private DriverHelper driverHelper;
     private HomePage homePage;
 
     public CommonSteps() {
-        this.driver = Hook.driver;
-        this.driverHelper = new DriverHelper(driver);
-        this.homePage = new HomePage(driver);
+        this.driverHelper = new DriverHelper();
+        this.homePage = new HomePage();
     }
 
     @Given("I am in the Falabella homepage$")

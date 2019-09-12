@@ -1,6 +1,5 @@
 runner\Runner.class
 steps\FilterSteps.class
-helpers\DriverHelper.class
 pages\BasePage.class
 steps\LoginSteps.class
 pages\ShoppingCartPage.class
@@ -13,4 +12,3 @@ steps\LogoutSteps.class
 steps\RegistrationSteps.class
 pages\SearchPage.class
 steps\Hook.class
-utils\Configuration.class

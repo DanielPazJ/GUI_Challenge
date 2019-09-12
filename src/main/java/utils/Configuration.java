@@ -16,6 +16,7 @@ public class Configuration {
             Properties properties = new Properties();
             properties.load(fileInput);
             property = properties.getProperty(variable);
+            fileInput.close();
         } catch (IOException ex) {
             ex.printStackTrace();
         }

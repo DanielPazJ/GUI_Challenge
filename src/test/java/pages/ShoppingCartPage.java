@@ -12,8 +12,8 @@ public class ShoppingCartPage extends BasePage {
     @FindBy(xpath =  "//*[@class='fb-order-status__empty-basket']")
     private WebElement shoppingCartEmptyMessage;
 
-    public ShoppingCartPage(WebDriver driver) {
-        super(driver);
+    public ShoppingCartPage() {
+        super();
     }
 
     public void deleteProduct(){

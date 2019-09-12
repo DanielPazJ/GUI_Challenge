@@ -12,8 +12,8 @@ public class ProductPage extends BasePage{
     @FindBy(xpath = "//*[@id='fb-overlay']//*[@class='fb-added-to-basket__title']")
     private WebElement shoppingCartMessage;
 
-    public ProductPage(WebDriver driver) {
-        super(driver);
+    public ProductPage() {
+        super();
     }
 
     public void addToShoppingCart(){

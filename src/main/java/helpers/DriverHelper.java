@@ -8,10 +8,10 @@ import utils.Configuration;
 
 public class DriverHelper {
 
-    public WebDriver driver;
+    private WebDriver driver;
 
-    public DriverHelper(WebDriver driver){
-        this.driver = driver;
+    public DriverHelper(){
+        this.driver = DriverFactory.getDriver();
     }
 
     public void waitForVisibility(WebElement element, int time){

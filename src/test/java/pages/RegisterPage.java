@@ -59,8 +59,8 @@ public class RegisterPage extends BasePage {
     @FindBy(id = "mensajeCelVacio")
     private WebElement errorCellphoneMessage;
 
-    public RegisterPage(WebDriver driver) {
-        super(driver);
+    public RegisterPage() {
+        super();
     }
 
     public void fillRegisterForm (Map<String, String> registrationData){
@@ -88,11 +88,11 @@ public class RegisterPage extends BasePage {
     private void registerBirthday(String birthday){
         String[] birthdayDate = birthday.split("/");
         date.click();
-        Hook.driver.findElement(By.xpath("//*[@id='day']//*[@value='" + birthdayDate[0] + "']")).click();
+        driver.findElement(By.xpath("//*[@id='day']//*[@value='" + birthdayDate[0] + "']")).click();
         month.click();
-        Hook.driver.findElement(By.xpath("//*[@id='month']//*[@value='" + birthdayDate[1] + "']")).click();
+        driver.findElement(By.xpath("//*[@id='month']//*[@value='" + birthdayDate[1] + "']")).click();
         year.click();
-        Hook.driver.findElement(By.xpath("//*[@id='year']//*[@value='" + birthdayDate[2] +"']")).click();
+        driver.findElement(By.xpath("//*[@id='year']//*[@value='" + birthdayDate[2] +"']")).click();
     }
 
     public void acceptRegistration (){

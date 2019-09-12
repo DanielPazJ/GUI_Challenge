@@ -4,16 +4,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import helpers.DriverHelper;
-import steps.Hook;
+import helpers.DriverFactory;
 
 public class BasePage {
 
     protected DriverHelper driverHelper;
     protected WebDriver driver;
+//    private DriverFactory driverFactory;
 
-    BasePage(WebDriver driver){
-        this.driver = Hook.driver;
-        driverHelper = new DriverHelper(driver);
+    BasePage(){
+       this.driver = DriverFactory.getDriver();
+        driverHelper = new DriverHelper();
         PageFactory.initElements(driver, this);
     }
 

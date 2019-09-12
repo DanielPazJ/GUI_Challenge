@@ -15,8 +15,11 @@ public class SearchPage extends BasePage {
     @FindBy(xpath = "//*[@class='fb-price-list']//*[@class='fb-price']")
     private WebElement productPrices;
 
-    public SearchPage(WebDriver driver) {
-        super(driver);
+    private By productList = By.className("section__pod-top");
+    private By priceListInternet = By.xpath("//*[@class='fb-price-list']//p[contains(text(),'(Internet)')]");
+
+    public SearchPage() {
+        super();
     }
 
     public void priceFilter(String filterType, String range) {
@@ -43,7 +46,7 @@ public class SearchPage extends BasePage {
     }
 
     public boolean verifyPriceList (double from, double to){
-        List<WebElement> pricesList = driver.findElements(By.xpath("//*[@class='fb-price-list']//p[contains(text(),'(Internet)')]"));
+        List<WebElement> pricesList = driver.findElements(priceListInternet);
         int i = 0;
         boolean response = true;
         while (response && i < pricesList.size()) {
@@ -59,7 +62,7 @@ public class SearchPage extends BasePage {
     }
 
     public void selectProduct (){
-        List<WebElement> productsList = driver.findElements(By.className("section__pod-top"));
+        List<WebElement> productsList = driver.findElements(productList);
         int productNumber = (int)(Math.random() * productsList.size()+1);
         productsList.get(productNumber).click();
     }

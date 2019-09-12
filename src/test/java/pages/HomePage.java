@@ -44,8 +44,8 @@ public class HomePage extends BasePage{
     @FindBy (xpath = "//*[@class='fb-masthead__util-bar__link fb-masthead-search__box__button-search']")
     private WebElement searchButton;
 
-    public HomePage(WebDriver driver) {
-        super(driver);
+    public HomePage() {
+        super();
     }
 
     private void clickOnLoginLink(){
@@ -81,7 +81,7 @@ public class HomePage extends BasePage{
     public RegisterPage registration(){
         clickOnLoginLink();
         resgitrationLink.click();
-        return new RegisterPage(driver);
+        return new RegisterPage();
     }
 
     public void searchProduct( String product){

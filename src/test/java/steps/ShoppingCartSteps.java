@@ -4,12 +4,9 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.WebDriver;
 import pages.ProductPage;
 import pages.SearchPage;
 import pages.ShoppingCartPage;
-import steps.Hook;
-import utils.Configuration;
 import helpers.DriverHelper;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -23,11 +20,10 @@ public class ShoppingCartSteps {
     private DriverHelper driverHelper;
 
     public ShoppingCartSteps () {
-        WebDriver driver = Hook.driver;
-        this.driverHelper = new DriverHelper(driver);
-        this.productPage = new ProductPage(driver);
-        this.searchPage = new SearchPage(Hook.driver);
-        this.shoppingCartPage = new ShoppingCartPage(driver);
+        this.driverHelper = new DriverHelper();
+        this.productPage = new ProductPage();
+        this.searchPage = new SearchPage();
+        this.shoppingCartPage = new ShoppingCartPage();
     }
 
     @Given("I am in a product page")
