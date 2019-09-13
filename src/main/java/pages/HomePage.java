@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -10,37 +9,26 @@ public class HomePage extends BasePage{
 
     @FindBy(id = "header-login-modal")
     private WebElement optionLogin;
-
     @FindBy(id = "emailAddress")
     private WebElement userInput;
-
     @FindBy(name = "password")
     private WebElement passwordInput;
-
     @FindBy(xpath = "//button[@class='Button__main__1NDc9 Button__green__1fhy5']")
     private WebElement loginButton;
-
     @FindBy (className = "Login__body__wb-dH")
     private WebElement loginPopUp;
-
     @FindBy (xpath = "//*[@class='fb-masthead-login__name re-design-cl__name']")
     private WebElement loginMessage;
-
     @FindBy (className = "Login__message__3fDqw")
     private WebElement errorLoginMessage;
-
     @FindBy (xpath = "//*[@class='fb-masthead-login__name re-design-cl__name login-redesing_logout-box']")
     private WebElement logoutMessage;
-
     @FindBy (xpath = "//*[@class='fb-filter-header__log-out']")
     private WebElement logoutLink;
-
     @FindBy (xpath = "//*[@class='Login__createAccount__38c2o']/a")
     private WebElement resgitrationLink;
-
     @FindBy(className = "fb-masthead-search__box__input")
     private WebElement searchBar;
-
     @FindBy (xpath = "//*[@class='fb-masthead__util-bar__link fb-masthead-search__box__button-search']")
     private WebElement searchButton;
 

@@ -13,49 +13,34 @@ public class RegisterPage extends BasePage {
 
     @FindBy(id = "user")
     private WebElement userName;
-
     @FindBy(id = "apellidopaterno")
     private WebElement fathersLastName;
-
     @FindBy(id = "apellidomaterno")
     private WebElement mothersLastName;
-
     @FindBy(id = "mail")
     private WebElement email;
-
     @FindBy(id = "clave1")
     private WebElement password;
-
     @FindBy(id = "clave2")
     private WebElement confirmPassword;
-
     @FindBy(id = "cedula_colombia")
     private WebElement idNumber;
-
     @FindBy(xpath = "//*[@value='male']")
     private WebElement maleGender;
-
     @FindBy(xpath = "//*[@value='female']")
     private WebElement femaleGender;
-
     @FindBy(id = "day")
     private WebElement date;
-
     @FindBy(id = "month")
     private WebElement month;
-
     @FindBy(id = "year")
     private WebElement year;
-
     @FindBy(id = "celular")
     private WebElement cellphone;
-
     @FindBy(id = "agreelegaleId")
     private WebElement acceptTerms;
-
     @FindBy(id = "boton_Ar")
     private WebElement registryButton;
-
     @FindBy(id = "mensajeCelVacio")
     private WebElement errorCellphoneMessage;
 
@@ -64,7 +49,6 @@ public class RegisterPage extends BasePage {
     }
 
     public void fillRegisterForm (Map<String, String> registrationData){
-
             userName.sendKeys(registrationData.get("First Name"));
             fathersLastName.sendKeys(registrationData.get("Father Last Name"));
             mothersLastName.sendKeys(registrationData.get("Mother Last Name"));
