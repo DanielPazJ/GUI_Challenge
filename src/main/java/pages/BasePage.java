@@ -19,7 +19,7 @@ abstract class BasePage {
     }
     /**
      * This method exist to get the text that a Web element has
-     * @param element of
+     * @param element
      * @return the text of the element
      */
     String getMessage(WebElement element){

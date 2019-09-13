@@ -33,6 +33,6 @@ public class RegistrationSteps {
 
     @Then("I should see an error message that says: ([^\"]*)")
     public void IShouldSeeAnErrorMessageThatSays(String message){
-        assertThat("Wrong Message", registerPage.cellphoneErrorMessage(), equalTo(message));
+        assertThat("Wrong Message", registerPage.getCellphoneErrorMessage(), equalTo(message));
     }
 }

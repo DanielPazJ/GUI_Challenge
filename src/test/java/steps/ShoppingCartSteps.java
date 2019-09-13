@@ -9,6 +9,8 @@ import pages.SearchPage;
 import pages.ShoppingCartPage;
 import helpers.DriverHelper;
 
+import java.io.IOException;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
@@ -27,13 +29,13 @@ public class ShoppingCartSteps {
     }
 
     @Given("I am in a product page")
-    public void iAmInAProductPage() {
+    public void iAmInAProductPage() throws IOException {
         driverHelper.openPage("productPage");
     }
 
     @And("I select a product to go to it is page")
     public void iSelectAProductToGoToItIsPage() {
-        searchPage.selectProduct();
+        searchPage.selectRandomProduct();
     }
 
     @When("I add the product to the cart")
@@ -47,7 +49,7 @@ public class ShoppingCartSteps {
     }
 
     @Given("I am in the shopping cart page")
-    public void iAmInTheShoppingCartPage() {
+    public void iAmInTheShoppingCartPage() throws IOException {
         driverHelper.openPage("bagPage");
     }
 
@@ -58,6 +60,6 @@ public class ShoppingCartSteps {
 
     @Then("I should that my cart is empty by the message: ([^\"]*)")
     public void iShouldThatMyCartIsEmptyByTheMessage(String message) {
-        assertThat("Wrong Message",shoppingCartPage.shoppingCartEmptyMessage(),equalTo(message));
+        assertThat("Wrong Message",shoppingCartPage.getShoppingCartEmptyMessage(),equalTo(message));
     }
 }

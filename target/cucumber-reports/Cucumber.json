@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-13T15:40:01.770Z",
+        "start_timestamp": "2019-09-13T21:37:34.653Z",
         "before": [
           {
             "result": {
-              "duration": 8212796100,
+              "duration": 8870395500,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1790209400,
+              "duration": 1440346500,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7298095300,
+              "duration": 8003382700,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 10933673100,
+              "duration": 18133721800,
               "status": "passed"
             },
             "line": 5,
@@ -65,35 +65,30 @@
           },
           {
             "result": {
-              "duration": 8979093000,
+              "duration": 9106859700,
               "status": "passed"
             },
             "line": 6,
-            "name": "I apply the filter for Precio between 5.000 and 20.000",
+            "name": "I apply the filter for price between 5.000 and 20.000",
             "match": {
               "arguments": [
                 {
-                  "val": "Precio",
-                  "offset": 23
-                },
-                {
                   "val": "5.000",
-                  "offset": 38
+                  "offset": 37
                 },
                 {
                   "val": "20.000",
-                  "offset": 48
+                  "offset": 47
                 }
               ],
-              "location": "FilterSteps.iApplyTheFilterForPriceBetweenAnd(String,String,String)"
+              "location": "FilterSteps.iApplyTheFilterForPriceBetweenAnd(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Wrong price\nExpected: \u003ctrue\u003e\n     but: was \u003cfalse\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat steps.FilterSteps.iShouldSeeJustProductsBetweenAnd(FilterSteps.java:26)\r\n\tat ✽.I should see just products between 5.000 and 20.000(file:src/test/resources/features/Filter.feature:7)\r\n",
-              "duration": 2269458900,
-              "status": "failed"
+              "duration": 3743481600,
+              "status": "passed"
             },
             "line": 7,
             "name": "I should see just products between 5.000 and 20.000",
@@ -134,7 +129,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5459488900,
+              "duration": 5864880600,
               "status": "passed"
             },
             "line": 4,
@@ -147,11 +142,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-13T15:40:41.272Z",
+        "start_timestamp": "2019-09-13T21:38:23.971Z",
         "before": [
           {
             "result": {
-              "duration": 4002225100,
+              "duration": 3952567000,
               "status": "passed"
             },
             "match": {
@@ -166,7 +161,7 @@
         "after": [
           {
             "result": {
-              "duration": 1578586700,
+              "duration": 1093613500,
               "status": "passed"
             },
             "match": {
@@ -179,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6344629300,
+              "duration": 7854984000,
               "status": "passed"
             },
             "line": 7,
@@ -211,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 2493136300,
+              "duration": 2540057400,
               "status": "passed"
             },
             "line": 11,
@@ -238,7 +233,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4859808900,
+              "duration": 4926882000,
               "status": "passed"
             },
             "line": 4,
@@ -251,11 +246,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-13T15:41:01.149Z",
+        "start_timestamp": "2019-09-13T21:38:45.278Z",
         "before": [
           {
             "result": {
-              "duration": 3223804200,
+              "duration": 3885722900,
               "status": "passed"
             },
             "match": {
@@ -270,7 +265,7 @@
         "after": [
           {
             "result": {
-              "duration": 1017820000,
+              "duration": 1448078400,
               "status": "passed"
             },
             "match": {
@@ -283,7 +278,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4377982900,
+              "duration": 5331205700,
               "status": "passed"
             },
             "line": 14,
@@ -315,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 1782263700,
+              "duration": 1939148900,
               "status": "passed"
             },
             "line": 18,
@@ -345,11 +340,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-13T15:41:16.412Z",
+        "start_timestamp": "2019-09-13T21:39:02.806Z",
         "before": [
           {
             "result": {
-              "duration": 2975690600,
+              "duration": 4294469000,
               "status": "passed"
             },
             "match": {
@@ -364,7 +359,7 @@
         "after": [
           {
             "result": {
-              "duration": 1461070100,
+              "duration": 1514044400,
               "status": "passed"
             },
             "match": {
@@ -377,7 +372,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6156032500,
+              "duration": 6549982400,
               "status": "passed"
             },
             "line": 4,
@@ -389,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 5290823500,
+              "duration": 8215586400,
               "status": "passed"
             },
             "line": 5,
@@ -421,7 +416,7 @@
           },
           {
             "result": {
-              "duration": 2768180000,
+              "duration": 2816784900,
               "status": "passed"
             },
             "line": 9,
@@ -433,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 7234707100,
+              "duration": 7570477400,
               "status": "passed"
             },
             "line": 10,
@@ -463,11 +458,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-13T15:41:42.299Z",
+        "start_timestamp": "2019-09-13T21:39:33.755Z",
         "before": [
           {
             "result": {
-              "duration": 4124524800,
+              "duration": 4498947600,
               "status": "passed"
             },
             "match": {
@@ -482,7 +477,7 @@
         "after": [
           {
             "result": {
-              "duration": 1473520100,
+              "duration": 1767207800,
               "status": "passed"
             },
             "match": {
@@ -495,7 +490,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5944474900,
+              "duration": 14494545300,
               "status": "passed"
             },
             "line": 4,
@@ -507,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 15363076600,
+              "duration": 13465039900,
               "status": "passed"
             },
             "line": 5,
@@ -587,7 +582,7 @@
           },
           {
             "result": {
-              "duration": 290599900,
+              "duration": 464814900,
               "status": "passed"
             },
             "line": 17,
@@ -599,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 124618800,
+              "duration": 386768100,
               "status": "passed"
             },
             "line": 18,
@@ -637,7 +632,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4666234400,
+              "duration": 12022427000,
               "status": "passed"
             },
             "line": 4,
@@ -649,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 15314147500,
+              "duration": 13182560200,
               "status": "passed"
             },
             "line": 5,
@@ -667,7 +662,7 @@
           },
           {
             "result": {
-              "duration": 12001046500,
+              "duration": 14030313000,
               "status": "passed"
             },
             "line": 6,
@@ -679,7 +674,7 @@
           },
           {
             "result": {
-              "duration": 3734303100,
+              "duration": 5482025200,
               "status": "passed"
             },
             "line": 7,
@@ -692,11 +687,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-13T15:42:09.620Z",
+        "start_timestamp": "2019-09-13T21:40:08.818Z",
         "before": [
           {
             "result": {
-              "duration": 3907440900,
+              "duration": 4368443500,
               "status": "passed"
             },
             "match": {
@@ -711,7 +706,7 @@
         "after": [
           {
             "result": {
-              "duration": 1593228800,
+              "duration": 1360503600,
               "status": "passed"
             },
             "match": {
@@ -724,7 +719,7 @@
         "steps": [
           {
             "result": {
-              "duration": 156282700,
+              "duration": 539939400,
               "status": "passed"
             },
             "line": 10,
@@ -751,7 +746,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4834678000,
+              "duration": 6529302300,
               "status": "passed"
             },
             "line": 4,
@@ -763,7 +758,7 @@
           },
           {
             "result": {
-              "duration": 16730194700,
+              "duration": 16412878500,
               "status": "passed"
             },
             "line": 5,
@@ -781,7 +776,7 @@
           },
           {
             "result": {
-              "duration": 8300085900,
+              "duration": 7507522200,
               "status": "passed"
             },
             "line": 6,
@@ -793,7 +788,7 @@
           },
           {
             "result": {
-              "duration": 6348823700,
+              "duration": 4797870300,
               "status": "passed"
             },
             "line": 7,
@@ -806,11 +801,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-13T15:42:50.992Z",
+        "start_timestamp": "2019-09-13T21:40:59.781Z",
         "before": [
           {
             "result": {
-              "duration": 3026343000,
+              "duration": 4522974700,
               "status": "passed"
             },
             "match": {
@@ -825,7 +820,7 @@
         "after": [
           {
             "result": {
-              "duration": 1443390600,
+              "duration": 1241843400,
               "status": "passed"
             },
             "match": {
@@ -838,7 +833,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4353089700,
+              "duration": 6027277300,
               "status": "passed"
             },
             "line": 13,
@@ -850,7 +845,7 @@
           },
           {
             "result": {
-              "duration": 1622124200,
+              "duration": 4926655600,
               "status": "passed"
             },
             "line": 14,
@@ -862,8 +857,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027EN911016\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\\Users\\dpaz\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 44078d8181765202b0bc052f8eb8908f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat helpers.DriverHelper.waitForVisibility(DriverHelper.java:19)\r\n\tat pages.ShoppingCartPage.shoppingCartEmptyMessage(ShoppingCartPage.java:23)\r\n\tat steps.ShoppingCartSteps.iShouldThatMyCartIsEmptyByTheMessage(ShoppingCartSteps.java:61)\r\n\tat ✽.I should that my cart is empty by the message: Tu Bolsa de Compras está vacía. Agrega productos ahora(file:src/test/resources/features/ShoppingCart.feature:15)\r\n",
-              "duration": 1409945100,
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027EN911016\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\\Users\\dpaz\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: be0f6ee4c46bb07ae02d52517e4c5fe3\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat helpers.DriverHelper.waitForVisibility(DriverHelper.java:26)\r\n\tat pages.ShoppingCartPage.getShoppingCartEmptyMessage(ShoppingCartPage.java:30)\r\n\tat steps.ShoppingCartSteps.iShouldThatMyCartIsEmptyByTheMessage(ShoppingCartSteps.java:63)\r\n\tat ✽.I should that my cart is empty by the message: Tu Bolsa de Compras está vacía. Agrega productos ahora(file:src/test/resources/features/ShoppingCart.feature:15)\r\n",
+              "duration": 1752528600,
               "status": "failed"
             },
             "line": 15,

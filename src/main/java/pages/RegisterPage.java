@@ -45,6 +45,10 @@ public class RegisterPage extends BasePage {
         super();
     }
 
+    /**
+     * This method fills the data in the field associated with the registration form
+     * @param registrationData contains the data to fill the registration format
+     */
     public void fillRegisterForm (Map<String, String> registrationData){
             userName.sendKeys(registrationData.get("First Name"));
             fathersLastName.sendKeys(registrationData.get("Father Last Name"));
@@ -58,6 +62,10 @@ public class RegisterPage extends BasePage {
             registerGender(registrationData.get("Gender"));
     }
 
+    /**
+     * This method select the gender for the registration form
+     * @param gender a string to select the element
+     */
     private void registerGender(String gender){
         if(gender.equals("Female")){
             femaleGender.click();
@@ -65,7 +73,10 @@ public class RegisterPage extends BasePage {
             maleGender.click();
         }
     }
-
+    /**
+     * This method find and selects the objects associated with the birthday date in the registration form
+     * @param birthday date
+     */
     private void registerBirthday(String birthday){
         String[] birthdayDate = birthday.split("/");
         date.click();
@@ -76,12 +87,16 @@ public class RegisterPage extends BasePage {
         driver.findElement(By.xpath("//*[@id='year']//*[@value='" + birthdayDate[2] +"']")).click();
     }
 
+    /**
+     * This method permit accept the filled registration by accepting terms
+     * and conditions and clicking the register button
+     */
     public void acceptRegistration (){
         acceptTerms.click();
         registryButton.click();
     }
 
-    public String cellphoneErrorMessage (){
+    public String getCellphoneErrorMessage(){
        return getMessage(errorCellphoneMessage);
     }
 }

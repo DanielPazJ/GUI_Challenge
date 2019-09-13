@@ -14,12 +14,19 @@ public class ProductPage extends BasePage{
         super();
     }
 
+    /**
+     * This method permits to add a product to the shopping cart form the product page
+     */
+
     public void addToShoppingCart(){
         driverHelper.waitForVisibility(cartButton, 10);
         cartButton.click();
         driverHelper.waitForVisibility(shoppingCartMessage, 10);
     }
-
+    /**
+     * This method search the message associated wit adding a product tyo the shopping cart
+     * @return the message
+     */
     public String getShoppingCartMessage (){
         return getMessage(shoppingCartMessage);
     }

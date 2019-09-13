@@ -36,42 +36,71 @@ public class HomePage extends BasePage{
         super();
     }
 
+    /**
+     * This method click the login link to visualize the associated pop up
+     */
+
     private void clickOnLoginLink(){
         optionLogin.click();
         driverHelper.waitForVisibility(loginPopUp, 2);
     }
 
+    /**
+     * This method fill the fields associated with login credentials
+     * @param loginData refers to the data that permit the login
+     */
+
     public void enterLoginCredentials(Map<String, String> loginData) {
         clickOnLoginLink();
+        userInput.clear();
         userInput.sendKeys(loginData.get("Email"));
+        passwordInput.clear();
         passwordInput.sendKeys(loginData.get("Password"));
         loginButton.click();
     }
 
+    /**
+     * This method gets the message associated with login
+     * @return the message
+     */
     public String getLoginMessage (){
         return getMessage(loginMessage).split(",")[0];
     }
-
+    /**
+     * This method exist to get the message associated with an error in the login
+     *  @return the message
+     */
     public String getLoginErrorMessage (){
         return getMessage(errorLoginMessage);
     }
-
+    /**
+     * This method exist to get the message associated with doing a logout
+     * @return the message
+     */
     public String getLogoutMessage (){
         return getMessage(logoutMessage).split("\\n")[0];
     }
-
+    /**
+     * This method exist to do a logout
+     */
     public void logout(){
         optionLogin.click();
         driverHelper.waitForVisibility(logoutLink, 10);
         logoutLink.click();
     }
-
+    /**
+     * This method permits the access to the registration page from the homepage
+     * @return a register page
+     */
     public RegisterPage registration(){
         clickOnLoginLink();
         resgitrationLink.click();
         return new RegisterPage();
     }
-
+    /**
+     * This method permit to search a product from the home page
+     * @param product to search
+     */
     public void searchProduct( String product){
         searchBar.sendKeys(product);
         searchButton.click();

@@ -5,6 +5,8 @@ import cucumber.api.java.en.Given;
 import helpers.DriverHelper;
 import pages.HomePage;
 
+import java.io.IOException;
+
 public class CommonSteps {
 
     private DriverHelper driverHelper;
@@ -16,7 +18,7 @@ public class CommonSteps {
     }
 
     @Given("I am in the Falabella homepage$")
-    public void IAmInTheFalabellaHomepage(){
+    public void IAmInTheFalabellaHomepage() throws IOException {
         driverHelper.openPage("homePage");
     }
 

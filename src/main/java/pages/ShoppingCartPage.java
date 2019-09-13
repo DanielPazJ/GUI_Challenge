@@ -14,16 +14,20 @@ public class ShoppingCartPage extends BasePage {
         super();
     }
 
+    /**
+     * This method deletes the first product that appears in the basket
+     */
     public void deleteProduct(){
         driverHelper.waitForVisibility(deleteLink,10);
         deleteLink.click();
     }
 
-    public String shoppingCartEmptyMessage(){
+    /**
+     * This method finds message that appears if the shopping cart is empty
+     * @return the message
+     */
+    public String getShoppingCartEmptyMessage(){
         driverHelper.waitForVisibility(shoppingCartEmptyMessage, 10);
         return getMessage(shoppingCartEmptyMessage).split(">>")[0];
     }
-
-
-
 }

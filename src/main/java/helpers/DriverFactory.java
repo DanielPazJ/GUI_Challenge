@@ -11,6 +11,10 @@ public class DriverFactory {
     public DriverFactory(){
     }
 
+    /**
+     * This method gets a driver
+     * @return a driver if it does not exist it creates one
+     */
     public static WebDriver getDriver(){
         if (driver == null){
             ChromeOptions options = new ChromeOptions();
