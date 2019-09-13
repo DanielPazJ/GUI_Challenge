@@ -1,3 +1,9 @@
 helpers\DriverHelper.class
+pages\BasePage.class
+pages\ShoppingCartPage.class
+pages\ProductPage.class
 helpers\DriverFactory.class
+pages\HomePage.class
+pages\SearchPage.class
+pages\RegisterPage.class
 utils\Configuration.class

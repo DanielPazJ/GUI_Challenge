@@ -65,8 +65,8 @@ public class SearchPage extends BasePage {
 
     public void selectProduct (){
         List<WebElement> productsList = driver.findElements(productList);
-        Random rand = new Random();
-        int productNumber = rand.nextInt(productsList.size());
+        Random random = new Random();
+        int productNumber = random.nextInt(productsList.size());
         productsList.get(productNumber).click();
     }
 }

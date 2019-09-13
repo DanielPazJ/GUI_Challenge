@@ -1,14 +1,8 @@
 runner\Runner.class
 steps\FilterSteps.class
-pages\BasePage.class
 steps\LoginSteps.class
-pages\ShoppingCartPage.class
-pages\ProductPage.class
 steps\CommonSteps.class
-pages\HomePage.class
 steps\ShoppingCartSteps.class
-pages\RegisterPage.class
 steps\LogoutSteps.class
 steps\RegistrationSteps.class
-pages\SearchPage.class
 steps\Hook.class
